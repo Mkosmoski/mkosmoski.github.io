@@ -1,7 +1,7 @@
 /*
  * LOOPS:
  *
- * Code-block that will run mutiple times "in a loop" within the constraints given 
+ * Code that will run mutiple times "in a loop" within the constraints given 
  * Loops will reduce repetition in your code
  *
  * Loops have three steps:
@@ -25,7 +25,7 @@
  var even = 2           //start at 2
  while (even < 22){     //while the even number is less than 22 continue the loop
   console.log(even);    //print the even number
-  even += 2;            //add 2 to even and loop back to the beginning- resulting in couting up by twos
+  even += 2;            //add 2 to even and loop back to the beginning
  }
  
 // 2. FOR LOOP //
@@ -38,8 +38,10 @@
   }
  */
 
-for(var i = 22; i>0; i--){   // for (the start/index = 22; as long as the index is more than 0; minus 2)
- console.log(i);              // print the idexes as they loop- resulting in counting down by evens
+for(var i = 22; i>0; i--){   
+ // for (the start/index = 22; as long as the index is more than 0; minus 2)
+ console.log(i);              
+ // print the idexes as they loop- resulting in counting down by evens
 } 
 
 
@@ -65,24 +67,32 @@ var meaningfulNumbers = {
  year: 2020
 }
 
-for(var key in meaningfulNumbers){    //loop over (key reference in object that has already been declared)
- console.log(key);                    //print the keys in the objects
- console.log(meaningfulNumbers[key]); //bracket notation to print the values of the keys
+for(var key in meaningfulNumbers){    
+ //loop over (key reference in object that has already been declared)
+ console.log(key);                    
+ //print the keys in the objects
+ console.log(meaningfulNumbers[key]); 
+ //bracket notation to print the values of the keys
 }
 
 var numbersAgain = [42, 27, 2020]
 
-for(var numbers of numbersAgain){    //loop over referenced index of already declared array
- console.log(numbers);               //print all indexes of array
- console.log(numbersAgain[2])        //use bracket notation to print a specific index in the array
+for(var numbers of numbersAgain){    
+ //loop over referenced index of already declared array
+ console.log(numbers);               
+ //print all indexes of array
+ console.log(numbersAgain[2])        
+ //use bracket notation to print a specific index in the array
 }
 
 //fun different ways to go backwards through an array
  
- for (var i=numbersAgain.length-1; i<=0; i--){   //using for loop
+ for (var i=numbersAgain.length-1; i<=0; i--){   
+  //using for loop
   console.log(i)
  }
  
-for (var numbers of numbersAgain.reverse()) { //using for-of but reverses your array in the code and this is not always desirable
+for (var numbers of numbersAgain.reverse()) { 
+ //for-of but reverses your array in the code and this is not always desirable
     console.log(i); 
 }

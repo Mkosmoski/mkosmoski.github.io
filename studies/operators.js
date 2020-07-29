@@ -1,11 +1,11 @@
 /*
  * OPERATORS:
  *
- * Operators act on a codes data by assigning the data, comparing data, or resulting new data from using data in a arithmetic operation
- * Operartors are distinguished by their function and how many operands the require
+ * Operators act on a codes data by assigning the data, comparing data, or 
+ * resulting new data from using data in a arithmetic operation
+ * Operartors are distinguished by their function and how many operands required
  *--operands are the values that operators work on
  * 
- *
  */
  
      2          +        2;
@@ -17,7 +17,7 @@
  * This operator is used to assign value to variables
  */
  
- var myPrimaryTransportation = "bike"; //<- '=' assigned the myTransportation to 'bike' 
+ var myTransportation = "bike"; //'=' assigned the var value 'bike' 
  
 // 2. ARITHMETIC OPERATORS //
 /*
@@ -51,12 +51,12 @@ math = math / 2; // math /=
  100 >= 100; // result true because 100 is greater than or equal to 100
  200 <= 150; // result false because 200 is not less than or equal to 150
  
- //NOTE when comparing equal or not equal you can use strict or not srtict comparison
+ //NOTE when comparing you can use strict or not srtict comparison
  
- 1 == "1"; // not strict and will result true because 1 = 1 (even though they are different data types)
- 1 === "1"; // strict will result false because 1 is a number and "1" is a string
+ 1 == "1"; // not strict will result true even though they are diff datatypes
+ 1 === "1"; // strict will result false because a number isn't a string
  2 != "2"; //not strict and will result false because 2 equals "2"
- 2 !== "2"; // strict will result true because 2 does not strictly equal 2 (they are different datatypes)
+ 2 !== "2"; // strict result true because they are different datatypes
 
 // 4. LOGICAL OPERATORS//
 /*
@@ -89,7 +89,9 @@ math = math / 2; // math /=
  // 6. TERNARY OPERATORS//
 /*
 *Ternary operator operates with three operands
-*Frequently used as a shortcut for an if statment this operator uses a '?' and ":" to connect condition and the expression to execute based on true or false answers
+*Frequently used as a shortcut for an if-statment this operator uses 
+* '?' and ":" to connect condition and the expression to execute based 
+* on true or false answers
 */
 
 function studentDiscount(student){

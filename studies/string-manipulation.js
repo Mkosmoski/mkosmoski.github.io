@@ -8,7 +8,7 @@
 
 // 1. WITH OPERATORS //
 /*
- * Manipulating strings with operators (more info on operators in the operators section)
+ * Manipulating strings with operators 
  */
  
  // Combine strings with "+"
@@ -36,21 +36,26 @@
  snowball.replace("!", "<3") // Snowball<3
  
  //slice a part of the string//
- snowball.slice(1, 4) // results "now". The indexes in the parthensis allow you to chose the portion you want to slice
- snowball.slice(6) // results "all<3". Use one index if you want to slice to the end of the string
+ snowball.slice(1, 4) // results "now". 
+ //The indexes in the parthensis allow you to chose the portion you want to slice
+ 
+ snowball.slice(6) // results "all<3". 
+ //Use one index if you want to slice to the end of the string
  
  //Search a string//
  /*
- * use indexOf() and lastindexof() to find the starting index of a portion of the string
+ * use indexOf() and lastindexof() to find the starting index of a portion of
+ * the string.
  * use search() to find the starting point of a portion of the string
  */
  let treat = "I want a snowball. I want a weddingcake snowball!"
- let snowballPos = treat.indexOf("snowball") // 9 - index of where the first occurance of "snowball" starts
- let lastSnowballPos = treat.lastIndexOf("snowball") // 40 - index of where the last occurance of "snowball" starts
- let weddingcakePos = treat.search("weddingcake snoball") // 28 - index of where the first occurance of "weddingcake snowball" starts
+ let snowballPos = treat.indexOf("snowball") // 9 
+ let lastSnowballPos = treat.lastIndexOf("snowball") // 40 
+ let weddingcakePos = treat.search("weddingcake snoball") // 28 
  
 //Join Strings
-let myFavorite = snowball.concat("", "my favorite dessert") // "Snowball<3 is my favorite dessert"
+let myFavorite = snowball.concat("", "my favorite dessert") 
+                                 // returns "Snowball<3 is my favorite dessert"
 
 //Access a Character in a String
 let w = snowball.charAt(3) //w 

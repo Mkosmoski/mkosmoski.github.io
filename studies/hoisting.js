@@ -1,18 +1,42 @@
-// How are variables hoisted in JavaScript?
-// How are function declarations hoisted? How are function expressions hoisted?
-// What is the JS Interpreter 
+
 /*
  * Hoisting 
  *
- * Hoisting is the process where the js intereter loads VARIABLE DECLARATIONS and FUNCTION FUNCTION DECLARATIONS to memory 
- * BEFORE executing the code
+ * Hoisting is the process where the js intereter loads VARIABLE DECLARATIONS 
+ * and FUNCTIONS before executing the code. It reads the functions and variable
+ * declarations first as if they were hoisted to the top
+ *
+ * NOTE: no code actually moves
  *
  * NOTE: JS Interpreter is what reads JavaScript code to execute it by
- * and publish it for humans to see and interact with
+ * converting higher level source code to lower level computer code so the 
+ * computer can read it and execute code for users to interact with!
  */
 
-// 1. Global Scope //
+// 1. Variable Hoisting //
 /*
- * Think of global scope as the parent scope or the omnipresent scope. It's the largest scope and contains all other scopes inside of it.
- * Everything in the global scope is accessible from the local and block scope. Way to think of it as a parent scope it passes down all genes or properties to the children scopes OR it is omnipresent so it is present in all scopes
+ * Only variables declared with var are hoisted (not let or const)
+ * Variables declaration will be hoisted but not the value
+ 
+ var    myVar       =  "String"
+     (declaration)     (value) 
  */
+ 
+ console.log(x); //<--will print "undefined"
+ var x = "something";
+ console.log(x); //<-- will print "something"
+ 
+ // 2. Function Hoisting
+ 
+ /*
+  * functions declartation and body are hoisted
+  *
+  
+  function myFunction() { };
+           (declartion) (body)
+ */
+ 
+  printFunction("You are awesome!");  //can call function before it is declared
+ function printFunction(string){
+     console.log(string);
+ }

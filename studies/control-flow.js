@@ -2,8 +2,8 @@
  * CONTROL FLOW
  *
  * If and Switch statments direct how your code will pan out or flow.
- * These statments offer a conditional that if met will execute one direction of code
- * and if not met will execute another direction of the code. 
+ * These statments offer a conditional that if met will execute one direction of
+ * code and if not met will execute another direction of the code. 
  * There is no limit on how many directions a code can take!
  *
  */
@@ -11,7 +11,8 @@
 
 // 1. IF STATMENTS //
 /*
- * If statemtnt is named because it starts with an IF giving the code options based on if something is true or false.
+ * If statemtnt is named because it starts with an IF giving the code options 
+ * based on if something is true or false.
  * If it is true run this code. If not don't! The code will be skipped
  *
  *Structure:
@@ -48,7 +49,8 @@
 // 3. ELSE STATEMENTS
 /*
  * To cover all your bases end your if statement with an else statement
- * This gives you a default code to run incase what you predicted would happen didn't
+ * This gives you a default code to run incase what you predicted would happen 
+ * didn't.
  *
  *Structure:
  if (condition1){
@@ -72,8 +74,9 @@ var fruit = "not ripe"
  
  // 4. SWITCH STATEMENTS
 /*
- * Switch statements work similarily to if statments but have a different structure
- * starting off with a given input the switch statement will compare with it's case and run code based on which case is true
+ * Switch statements work similarily to if statments but have a different 
+ * structure starting off with a given input the switch statement will compare 
+ * with it's case and run code based on which case is true
  *
  *Structure:
  
