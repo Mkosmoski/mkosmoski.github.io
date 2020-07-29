@@ -56,8 +56,8 @@ myVariable = "someString";
 /*
 * Properties of var: 
 * 0. reassignable- you can reassign value to this variable type
-* 1. hoisted- the declaration of this variable is hoisted to the top of the code when being read
-* 2. scoped to functions- when declared in a function stays in the function
+* 1. hoisted- the declaration of a variable is brought to the top of the code when the JS interpreter starts to read the code (more info on hoisting in the hoisted section)
+* 2. scoped to functions - when declared in a function they stay in the function, but var is not scoped to blocks, you can access the var outside of the code blocks of loops or if statements (more info on scope in the scope section)
 */
 
 var businessName = "Lynn the Professional"

@@ -8,17 +8,16 @@
  *
  */
  
-     2          +        2
+     2          +        2;
 //(operand) (operator) (operand)
 
 // 1. ASSIGNMENT OPERATORS //
 /*
- * Assignment operator is the "=""
- * This operator is used to assign var, let, const, etc
+ * Assignment operators are the '=' '+=' '-='
+ * This operator is used to assign value to variables
  */
  
- var myTransportation = "bike" //<- '=' assigned the myTransportation to 'bike' 
- 
+ var myPrimaryTransportation = "bike"; //<- '=' assigned the myTransportation to 'bike' 
  
 // 2. ARITHMETIC OPERATORS //
 /*
@@ -76,10 +75,10 @@ math = math / 2; // math /=
  * operaters inclue typeof, bang (!), increments (++), decrements (--) 
  */
  
- console.log(typeof 77) 
+ console.log(typeof 77); 
  //typeof operator works with one operand to return the datatype the operand is
  
- 4 != 7 
+ 4 != 7 ;
  // ! otherwise known as the 'bang' operator usually means "not"
  
  for (var i=0; i <= 11; i++);
