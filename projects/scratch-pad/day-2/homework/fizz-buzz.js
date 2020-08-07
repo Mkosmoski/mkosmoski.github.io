@@ -15,7 +15,7 @@ function fizzBuzz() {
     //use for loop to print numbers 1-100 
 for (var i = 1; i <= 100; i++ ){
     //if numbers are not divisible by 3 or 5 print the number
-    if (i % 3 != 0 && i % 5 !=0){
+    if (i % 3 !== 0 && i % 5 !== 0){
         console.log(i);
     //if the number is divisible by 3 and 5 print FizzBuzz
     }else if (i % 3 === 0 && i % 5 ===0){
